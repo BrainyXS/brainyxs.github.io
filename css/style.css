@@ -1,0 +1,206 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*Zu importierende Schriftarten aus fonts.google.com */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    font-family: "Open Sans", Aria;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    border: 10px white solid;
+    width: 99vw;
+    display: grid;
+    grid-template-rows: 180px 60px 4fr 120px;
+    grid-template-columns: 25% 40% 10% 25%;
+    grid-template-areas: 'k k k k' 's s s s' 'c c c c' 'f f f f';
+}
+
+header {
+    grid-area: k;
+}
+
+main {
+    background: #4EFF00;
+    grid-area: c;
+    color: #0C69E8;
+}
+
+nav {
+    grid-area: s;
+}
+
+footer {
+    background: #0a833a;
+    grid-area: f;
+    color: #00FFFF;
+}
+
+header h1{
+    grid-area: t;
+    text-align: left;
+    horiz-align: left;
+    vert-align: middle;
+    text-align: left;
+    font-size: 680%;
+    color: #4eff00;
+    font-family: Akronim;
+    letter-spacing: 8px;
+}
+.Logo{
+    grid-area: i;
+    margin: 5px;
+    width: 80%;
+    height: 80%;
+}
+header>div{
+    text-align: center;
+    display: grid;
+    height: 100%;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 180px 60%;
+    grid-template-areas: 'n i t';
+}
+.nothing{
+    grid-area: n;
+}
+.navfelxdiv{
+    display: flex;
+    height: 50px;
+
+}
+.NavFlex{
+    flex: 1;
+    height: 100%;
+    background-color: #0c69eb ;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.NavFlex>a{
+    vertical-align: middle;
+    font-size: 200%;
+    color: #4eff00;
+}
+.NavFlex:hover{
+    animation-duration: 0.5s;
+    animation-name: navhover;
+    background-color: #00FFFF;
+}
+
+@keyframes navhover {
+    0%{background-color: #0c69eb}
+    100%{background-color: #00FFFF}
+}
+.icon {
+    font-size: 2vw;
+    padding-right: 6%;
+    padding-left: 4%;
+}
+.it {
+    font-size: 80%;
+    font-family: Roboto;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+footer h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+a:hover
+{
+    color: red;
+}
+main img{
+    margin: 20px;
+    float: left;
+}
+.Title{
+    font-family: Roboto;
+    font-size: 250%;
+    padding-left: 20px;
+}
+.Content{
+    display: flex;
+}
+.fi{
+    flex: 1;
+}
+p{
+    font-size: 120%;
+    line-height: 30px;
+}
+.active{
+    background-color: #0a833a;
+}
+.Unity{
+    height: 20%;
+    width: 30vw;
+}
+table{
+    width: 98%;
+    border-collapse: collapse;
+    border: 3px solid white;
+    margin-bottom: 20px;
+}
+th, td{
+    border-collapse: collapse;
+    border: white 3px solid;
+    padding: 5px;
+}
+thead{
+    background-color: #0a833a;
+    color: #00FFFF;
+}
+@media (max-width: 1200px) {
+    .navfelxdiv{
+        flex-direction: column;
+    }
+    .container
+    {
+        grid-template-rows: 180px 200px 4fr 120px;
+    }
+    .NavFlex{
+        margin: 2px;
+    }
+}
+@media (max-width: 600px) {
+    header{
+        font-size: 50%;
+    }
+    .Logo{
+        margin-right: 0px;
+        height: 150px;
+        min-width: 150px;
+    }
+    .Title{
+        padding-left: 15px;
+    }
+    .nothing{
+        grid-area: unset;
+        display: none;
+    }
+    .icon{
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 950px) {
+    img{
+        max-width: 40%;
+        height: auto;
+    }
+}
