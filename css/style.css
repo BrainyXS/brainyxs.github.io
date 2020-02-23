@@ -207,6 +207,9 @@ thead{
     footer>h2{
         font-size: 20px;
     }
+    table{
+        font-size: 8px;
+    }
 
 }
 @media (max-width: 950px) {
