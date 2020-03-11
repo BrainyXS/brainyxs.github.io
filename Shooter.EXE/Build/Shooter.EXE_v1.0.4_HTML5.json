@@ -1,0 +1,17 @@
+{
+"companyName": "BrainqDev",
+"productName": "Shooter.EXE",
+"productVersion": "1.2",
+"dataUrl": "Shooter.EXE_v1.0.4_HTML5.data.unityweb",
+"wasmCodeUrl": "Shooter.EXE_v1.0.4_HTML5.wasm.code.unityweb",
+"wasmFrameworkUrl": "Shooter.EXE_v1.0.4_HTML5.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "Shooter.EXE_v1.0.4_HTML5.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.0f5"
+}
