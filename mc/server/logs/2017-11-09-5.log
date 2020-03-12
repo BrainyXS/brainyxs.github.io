@@ -1,0 +1,85 @@
+[20:52:45] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[20:52:45] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Das Handle ist ungültig
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_144]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_144]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_144]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_144]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[craftbukkit-1.12.2.jar:git-Bukkit-31d3159]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[craftbukkit-1.12.2.jar:git-Bukkit-31d3159]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[craftbukkit-1.12.2.jar:git-Bukkit-31d3159]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[craftbukkit-1.12.2.jar:git-Bukkit-31d3159]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[craftbukkit-1.12.2.jar:git-Bukkit-31d3159]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[craftbukkit-1.12.2.jar:git-Bukkit-31d3159]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[craftbukkit-1.12.2.jar:git-Bukkit-31d3159]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[craftbukkit-1.12.2.jar:git-Bukkit-31d3159]
+	at net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:86) [craftbukkit-1.12.2.jar:git-Bukkit-31d3159]
+[20:52:45] [Server thread/INFO]: Loading properties
+[20:52:46] [Server thread/INFO]: Default game type: SURVIVAL
+[20:52:46] [Server thread/INFO]: Generating keypair
+[20:52:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:52:46] [Server thread/INFO]: Using default channel type
+[20:52:46] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-31d3159 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[20:52:51] [Server thread/INFO]: [Mauer.plugin] Loading Mauer.plugin v3.0
+[20:52:51] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[20:52:51] [Server thread/INFO]: [rezepte] Loading rezepte v1.0
+[20:52:51] [Server thread/INFO]: [unbrakeplugin] Loading unbrakeplugin v1.0
+[20:52:51] [Server thread/INFO]: [Bettplugin] Loading Bettplugin v1.0
+[20:52:51] [Server thread/INFO]: [City] Loading City v2.0
+[20:52:51] [Server thread/INFO]: [enderbow] Loading enderbow v1.0
+[20:52:51] [Server thread/INFO]: [spawnteleport] Loading spawnteleport v2.0
+[20:52:51] [Server thread/INFO]: [KreisPlugin] Loading KreisPlugin v1.0
+[20:52:51] [Server thread/INFO]: [Kugel] Loading Kugel v1.0
+[20:52:51] [Server thread/INFO]: [Feuerschwert] Loading Feuerschwert v1.0
+[20:52:51] [Server thread/INFO]: [unkontrollflugplugin] Loading unkontrollflugplugin v1.0
+[20:52:51] [Server thread/INFO]: [Random_Teleport] Loading Random_Teleport v1.0
+[20:52:51] [Server thread/INFO]: [Schilder-Plugin] Loading Schilder-Plugin v1.0
+[20:52:51] [Server thread/INFO]: Preparing level "world"
+[20:53:02] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1514951623478839608)
+[20:53:03] [Server thread/INFO]: Preparing spawn area: 0%
+[20:53:04] [Server thread/INFO]: Preparing spawn area: 2%
+[20:53:05] [Server thread/INFO]: Preparing spawn area: 44%
+[20:53:06] [Server thread/INFO]: Preparing spawn area: 64%
+[20:53:08] [Server thread/INFO]: Preparing spawn area: 73%
+[20:53:08] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1514951623478839608)
+[20:53:09] [Server thread/INFO]: Preparing spawn area: 2%
+[20:53:11] [Server thread/INFO]: Preparing spawn area: 48%
+[20:53:12] [Server thread/INFO]: Preparing spawn area: 61%
+[20:53:12] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1514951623478839608)
+[20:53:13] [Server thread/INFO]: Preparing spawn area: 4%
+[20:53:14] [Server thread/INFO]: Preparing spawn area: 50%
+[20:53:15] [Server thread/INFO]: [Mauer.plugin] Enabling Mauer.plugin v3.0
+[20:53:15] [Server thread/INFO]: [Mauer.plugin] BauenPlugin gestartet!
+[20:53:15] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[20:53:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:53:17] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[20:53:17] [Server thread/INFO]: [rezepte] Enabling rezepte v1.0
+[20:53:17] [Server thread/INFO]: [unbrakeplugin] Enabling unbrakeplugin v1.0
+[20:53:17] [Server thread/INFO]: [Bettplugin] Enabling Bettplugin v1.0
+[20:53:17] [Server thread/INFO]: [City] Enabling City v2.0
+[20:53:17] [Server thread/INFO]: [City] Cityteleport funktioniert jetzt!
+[20:53:17] [Server thread/INFO]: [enderbow] Enabling enderbow v1.0
+[20:53:17] [Server thread/INFO]: [enderbow] enderbowwww
+[20:53:17] [Server thread/INFO]: [spawnteleport] Enabling spawnteleport v2.0
+[20:53:17] [Server thread/INFO]: [spawnteleport] Spawnteleport funktioniert jetzt!
+[20:53:17] [Server thread/INFO]: [KreisPlugin] Enabling KreisPlugin v1.0
+[20:53:17] [Server thread/INFO]: [KreisPlugin] Kreise gibts jetzt!
+[20:53:17] [Server thread/INFO]: [Kugel] Enabling Kugel v1.0
+[20:53:17] [Server thread/INFO]: [Kugel] Kreise-Plugin gestartet.
+[20:53:17] [Server thread/INFO]: [Feuerschwert] Enabling Feuerschwert v1.0
+[20:53:17] [Server thread/INFO]: [Feuerschwert] FereristOP
+[20:53:17] [Server thread/INFO]: [unkontrollflugplugin] Enabling unkontrollflugplugin v1.0
+[20:53:17] [Server thread/INFO]: [unkontrollflugplugin] Flying enabeldes
+[20:53:17] [Server thread/INFO]: [Random_Teleport] Enabling Random_Teleport v1.0
+[20:53:17] [Server thread/INFO]: [Random_Teleport] RTP einsatzbereit
+[20:53:17] [Server thread/INFO]: [Schilder-Plugin] Enabling Schilder-Plugin v1.0
+[20:53:17] [Server thread/INFO]: [Schilder-Plugin] SchilderPlugin gestartet
+[20:53:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:53:17] [Server thread/INFO]: Done (25.724s)! For help, type "help" or "?"
+[20:53:29] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10023ms behind, skipping 200 tick(s)
+[20:53:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2854ms behind, skipping 57 tick(s)
+[20:58:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4351ms behind, skipping 87 tick(s)
+[21:03:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5223ms behind, skipping 104 tick(s)
+[21:08:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5015ms behind, skipping 100 tick(s)
+[21:13:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5373ms behind, skipping 107 tick(s)
+[21:18:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4874ms behind, skipping 97 tick(s)

@@ -1,0 +1,40 @@
+[22:06:21] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[22:06:21] [Server thread/INFO]: Loading properties
+[22:06:21] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Das Handle ist ungültig
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_144]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_144]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_144]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_144]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[craftbukkit-1.12.2.jar:git-Bukkit-9ab758c]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[craftbukkit-1.12.2.jar:git-Bukkit-9ab758c]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[craftbukkit-1.12.2.jar:git-Bukkit-9ab758c]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[craftbukkit-1.12.2.jar:git-Bukkit-9ab758c]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[craftbukkit-1.12.2.jar:git-Bukkit-9ab758c]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[craftbukkit-1.12.2.jar:git-Bukkit-9ab758c]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[craftbukkit-1.12.2.jar:git-Bukkit-9ab758c]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[craftbukkit-1.12.2.jar:git-Bukkit-9ab758c]
+	at net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:86) [craftbukkit-1.12.2.jar:git-Bukkit-9ab758c]
+[22:06:21] [Server thread/INFO]: Default game type: SURVIVAL
+[22:06:21] [Server thread/INFO]: Generating keypair
+[22:06:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:06:21] [Server thread/INFO]: Using default channel type
+[22:06:22] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-9ab758c (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[22:06:22] [Server thread/INFO]: [Hallo_Server-Plugin] Loading Hallo_Server-Plugin v1.0
+[22:06:22] [Server thread/INFO]: [test_plugin] Loading test_plugin v1.0
+[22:06:22] [Server thread/INFO]: Preparing level "world"
+[22:06:24] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1514951623478839608)
+[22:06:26] [Server thread/INFO]: Preparing spawn area: 0%
+[22:06:27] [Server thread/INFO]: Preparing spawn area: 9%
+[22:06:28] [Server thread/INFO]: Preparing spawn area: 34%
+[22:06:29] [Server thread/INFO]: Preparing spawn area: 59%
+[22:06:30] [Server thread/INFO]: Preparing spawn area: 85%
+[22:06:30] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1514951623478839608)
+[22:06:31] [Server thread/INFO]: Preparing spawn area: 51%
+[22:06:31] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1514951623478839608)
+[22:06:32] [Server thread/INFO]: [Hallo_Server-Plugin] Enabling Hallo_Server-Plugin v1.0
+[22:06:32] [Server thread/INFO]: [test_plugin] Enabling test_plugin v1.0
+[22:06:32] [Server thread/INFO]: [test_plugin] Server ist nun Online!
+[22:06:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:06:32] [Server thread/INFO]: Done (9.731s)! For help, type "help" or "?"
+[22:06:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2702ms behind, skipping 54 tick(s)

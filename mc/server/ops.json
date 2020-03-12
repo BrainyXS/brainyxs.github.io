@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "9a712a40-5d65-402d-97f2-4b41dd55c8e7",
+    "name": "BrainyXS",
+    "level": 2,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "bd52934d-4d52-41d6-a649-4d42c54c134b",
+    "name": "Minigun_Tank",
+    "level": 2,
+    "bypassesPlayerLimit": false
+  }
+]
