@@ -1,8 +1,0 @@
-[20:14:03] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[20:14:03] [Server thread/INFO]: Loading properties
-[20:14:04] [Server thread/INFO]: Default game type: SURVIVAL
-[20:14:04] [Server thread/INFO]: Generating keypair
-[20:14:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:14:04] [Server thread/INFO]: Using default channel type
-[20:14:05] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-9ab758c (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[20:15:34] [User Authenticator #1/INFO]: UUID of player BrainyXS is 9a712a40-5d65-402d-97f2-4b41dd55c8e7
